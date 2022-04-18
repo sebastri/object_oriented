@@ -1,0 +1,48 @@
+int runder nedover
+
+eks
+
+10/4 = 2.5 = 2
+
+-10/4 = -2.5 = -2
+
+
+
+passByValue a=2
+a++
+når er a = 3
+osv..
+
+
+passByReference endre på selve variablen:
+
+eks 
+
+int func(int a, int& b){
+	a = 300;
+	b = -2;
+	return a + b;
+}
+int main{
+	int i = 0;
+	cout << func(i, i) << " ";
+	cout << i;
+}
+
+vil skrive ut: fordi selve i variablen blir endret &.
+298 -2
+
+\\
+string s1 = "aaa";
+	string s2{"bbb"};
+	string s3 = s1 + s2;
+	cout << s3 << " " << s3.size() << " ";
+	cout << s3[2] << s3[3] << " ";
+	s1[1] = 'A' + 2;
+	cout << s1 << " " << 'c' - 'a';
+
+skriver ut:
+aaabbb 6 ab aCa 2
+
+
+

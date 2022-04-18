@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "streambuf": "cpp",
+        "xiosbase": "cpp",
+        "istream": "cpp"
+    }
+}

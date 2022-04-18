@@ -1,0 +1,21 @@
+kopiere peker
+
+class Demo  
+{  
+    public:  
+    int a;  
+    int b;  
+    int *p;  
+  
+    Demo()  
+    {  
+        p=new int;  
+    }  
+    Demo(Demo &d)  
+    {  
+        a = d.a;  
+        b = d.b;  
+        p = new int;  
+        *p = *(d.p);  //denne er viktig!
+    }  
+

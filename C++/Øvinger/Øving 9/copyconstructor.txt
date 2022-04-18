@@ -1,0 +1,20 @@
+disable copyconstructor
+
+String(const String& other) = delete;
+
+deep copy-constructor for Dummy:
+
+Dummy(const Dummy& other):num(other.num){
+    num = new int{0};
+}
+
+
+operator= for Dummy
+
+Dummy& operator=(Dummy a){
+   std::swap(num, a.num);
+   return *this;
+};
+
+
+alltid pass-by-const-ref til objekter

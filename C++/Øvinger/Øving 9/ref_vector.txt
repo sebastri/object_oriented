@@ -1,0 +1,10 @@
+re vector;
+
+avlutte:
+static void cb_restart(Address, Address pw){ reference_to<MinesweeperWindow>(pw).restart(); };
+static void cb_quit(Address, Address pw){ reference_to<MinesweeperWindow>(pw).hide(); };
+
+calles på fra button som lages i konstruktør:
+
+restartAndQuit.attach(new Button{Point{0,0},0,0, "Restart", cb_restart});
+	restartAndQuit.attach(new Button{Point{0,0},0,0, "Quit", cb_quit});

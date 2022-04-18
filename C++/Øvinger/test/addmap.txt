@@ -1,0 +1,5 @@
+add to map
+
+map<string, int> stasjoner;
+
+stasjoner["Stasjon 1"] += 1;

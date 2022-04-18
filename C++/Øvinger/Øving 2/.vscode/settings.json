@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "iomanip": "cpp",
+        "numeric": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

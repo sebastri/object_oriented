@@ -1,0 +1,8 @@
+stringstream ss{lkasd}
+
+getline(ss, code, ',')
+getline(ss, age, ',')
+. 
+.
+.
+

@@ -1,0 +1,10 @@
+function[bool] = isFibonacciNumber(n) 
+a = 0;
+b = 1;
+while b < n
+temp = b;
+b = b + a;
+a = temp;
+end
+result = bool
+end
